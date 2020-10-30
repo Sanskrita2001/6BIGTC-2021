@@ -1,5 +1,6 @@
 body {
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
+  background: rgb(3, 174, 104, 0.25);
   color: #606060;
   font-family: "Proxima", sans-serif;
   font-size: 16px;
@@ -206,10 +207,10 @@ ol {
       rgba(36, 36, 36, 0.6),
       rgba(36, 36, 36, 0.6)
     ),
-    url("../images/campus-banner.jpg") 0 repeat-y fixed;
+    url("../images/Vellore-Institute-of-Technlogy.jpg") 0 repeat-y fixed;
   background-size: cover;
   color: #ffffff;
-  height: 120vh;
+  height: 135vh;
   text-align: center;
   position: relative;
 }
@@ -855,8 +856,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 #committee .team-gallery .img-container img {
-  width: 190px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 
 #committee .team-gallery .img-desc {
@@ -884,6 +885,9 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .list_name ul li {
   text-align: left;
+}
+.list_name ol li {
+  margin: 0 25%;
 }
 
 /*Downloads section */
@@ -1118,5 +1122,15 @@ footer {
   }
   #home {
     height: 200vh;
+  }
+  .navbar-header .navbar-brand {
+    margin-left: 80px;
+    margin-bottom: 10px;
+  }
+  .navbar .container {
+    margin: 0;
+  }
+  .list_name ol li {
+    margin: 0;
   }
 }
