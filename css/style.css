@@ -1,6 +1,10 @@
 body {
   /*background: #f8f8f8;*/
-  background: rgb(3, 174, 104, 0.25);
+  background-image: linear-gradient(
+    rgba(124, 207, 252, 1),
+    rgba(3, 174, 104, 0.25)
+  );
+  //background: rgb(3, 174, 104, 0.25);
   color: #606060;
   font-family: "Proxima", sans-serif;
   font-size: 16px;
@@ -207,7 +211,7 @@ ol {
       rgba(36, 36, 36, 0.6),
       rgba(36, 36, 36, 0.6)
     ),
-    url("../images/Vellore-Institute-of-Technlogy.jpg") 0 repeat-y fixed;
+    url("../images/home-bg.jpg") 0 repeat-y fixed;
   background-size: cover;
   color: #ffffff;
   height: 135vh;
